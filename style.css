@@ -14,14 +14,26 @@ background-image: image(image/project.jpg);
 background-position: center bottom, left top;
 background-repeat: no-repeat;
 }
-.title {
+.title{
   display:flex;
-  flex-direction: row;width: 500px;
+flex-direction: row;}
+
+h1.title {
+
+width: 500px;
 height: 250px;
   height: hsl(360, 100%, 100%);
   background-color:#001f3f.
 }
+p.title {
 
+  display:flex;
+  flex-direction: column;
+  width: 500px;
+height: 250px;
+  height: hsl(360, 100%, 100%);
+  background-color:#001f3f.
+}
 .footer {
  font-size: 20px;
  border:1px solid blue;
